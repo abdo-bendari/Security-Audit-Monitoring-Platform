@@ -87,36 +87,6 @@ project/
 }
 ```
 
-### ApiKey
-
-```ts
-{
-  key: String,
-  status: Boolean,
-  owner: ObjectId
-}
-```
-
-### Feedback
-
-```ts
-{
-  user: ObjectId,
-  scan: ObjectId,
-  content: String
-}
-```
-
-### Notification
-
-```ts
-{
-  user: ObjectId,
-  message: String,
-  read: Boolean
-}
-```
-
 ---
 
 ## 🔗 API Endpoints
