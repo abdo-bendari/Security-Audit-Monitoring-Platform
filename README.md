@@ -1,7 +1,7 @@
 # Website Security Scanner
-
-A Node.js + Express + MongoDB based web application that allows users to scan websites for security configurations, SSL status, HTTP headers, CORS policy, and potential vulnerabilities.
-
+The Web Security Scanner API is a Node.js & Express-based backend project that provides automated website security scanning.
+It analyzes SSL certificates, response headers, and CORS policies, then generates a security grade (A–F) with a detailed list of vulnerabilities.
+This tool helps developers, system administrators, and security researchers quickly assess basic security hygiene of any public website.
 ---
 
 ## 🚀 Features
